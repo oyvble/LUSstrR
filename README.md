@@ -10,7 +10,7 @@ Main function to use is convert(), which takes a dataframe which must include fo
 - Locus (not case sensitive)
 - Other columns are retained
 
-Function convertFromUASreport can be used to import data from a UAS report file directly
+Function convertFromUASreport() can be used to import data from a UAS report file directly
 
 ## INSTALLATION
 From GitHub (requires R-package devtools installed)
@@ -24,7 +24,7 @@ When released on CRAN:
 - df = readRDS(paste0(pgkPath,"/examples/exampleDataframe.RDS")) #read a dataframe
 - df = convert(df) #update with converted sequences
 
-Output columns: \
+Output columns:
 - Traditional_STR_Allele: Traditional CE/RU format
 - Forward_Strand_Bracketed_form: Bracket format format in forward direction
 - UAS_Output_Bracketed_Form: Bracket format in forward/backward direction wrt UAS definitions
