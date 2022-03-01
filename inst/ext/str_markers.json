@@ -1,0 +1,1055 @@
+{
+    "CSF1PO": {
+        "BasesToSubtract": 0,
+        "NumRepeats": 1,
+        "Repeats": [
+            "ATCT"
+        ],
+        "NumBasesToSeparate": 4,
+        "ReverseCompNeeded": "Yes",
+        "LUS": "ATCT",
+        "Sec": "ACCT",
+        "Tert": "",
+        "Foren_5": 6,
+        "Foren_3": 14,
+        "Power_5": 13,
+        "Power_3": 112,
+        "Alleles": ["6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16"]
+    },
+    "D10S1248": {
+        "BasesToSubtract": 0,
+        "NumRepeats": 1,
+        "Repeats": [
+            "GGAA"
+        ],
+        "NumBasesToSeparate": 4,
+        "ReverseCompNeeded": "No",
+        "LUS": "GGAA",
+        "Sec": "",
+        "Tert": "",
+        "Foren_5": 18,
+        "Foren_3": 23,
+        "Power_5": 54,
+        "Power_3": 0,
+        "Alleles": [
+            "7", "8", "9", "10", "11", "12", "12.3", "13", "14", "15", "16", "17", "18", "19"
+        ]
+    },
+    "D12S391": {
+        "BasesToSubtract": 0,
+        "NumRepeats": 2,
+        "Repeats": [
+            "AGAT",
+            "AGAC"
+        ],
+        "NumBasesToSeparate": 4,
+        "ReverseCompNeeded": "No",
+        "LUS": "AGAT",
+        "Sec": "AGAC",
+        "Tert": "AGGT",
+        "Foren_5": 39,
+        "Foren_3": 73,
+        "Power_5": 21,
+        "Power_3": 11,
+        "Alleles": [
+            "13", "14", "15", "15.1", "16", "16.3", "17", "17.1", "17.3", "18", "18.1",
+            "18.3", "19", "19.1", "19.2", "19.3", "20", "20.1", "20.3", "21", "21.1", "22",
+            "22.2", "23", "24", "24.3", "25", "26", "27", "28"
+        ]
+
+    },
+    "D13S317": {
+        "BasesToSubtract": 31,
+        "NumRepeats": 5,
+        "Repeats": [
+            "TATC",
+            "ATTC",
+            "ATCT",
+            "TATA",
+            "AATC"
+        ],
+        "NumBasesToSeparate": 4,
+        "ReverseCompNeeded": "No",
+        "LUS": "TATC",
+        "Sec": "ATCT",
+        "Tert": "GTCT",
+        "Foren_5": 39,
+        "Foren_3": 8,
+        "Power_5": 70,
+        "Power_3": 45,
+        "Alleles": ["6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "28.2"]
+    },
+    "D16S539": {
+        "BasesToSubtract": 0,
+        "NumRepeats": 1,
+        "Repeats": [
+            "GATA"
+        ],
+        "NumBasesToSeparate": 4,
+        "ReverseCompNeeded": "No",
+        "LUS": "GATA",
+        "Sec": "GACA",
+        "Tert": "",
+        "Foren_5": 38,
+        "Foren_3": 36,
+        "Power_5": 137,
+        "Power_3": 4,
+        "Alleles": ["5", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16"]
+    },
+    "D17S1301": {
+        "BasesToSubtract": 0,
+        "NumRepeats": 1,
+        "Repeats": [
+            "AGAT"
+        ],
+        "NumBasesToSeparate": 4,
+        "ReverseCompNeeded": "No",
+        "LUS": "AGAT",
+        "Sec": "",
+        "Tert": "",
+        "Foren_5": 9,
+        "Foren_3": 16,
+        "Alleles": ["7", "8", "9", "10", "11", "11.3", "12", "13", "14", "15"]
+    },
+    "D18S51": {
+        "BasesToSubtract": 10,
+        "NumRepeats": 2,
+        "Repeats": [
+            "AGAA",
+            "AAAG",
+            "AGAG"
+        ],
+        "NumBasesToSeparate": 4,
+        "ReverseCompNeeded": "No",
+        "LUS": "AGAA",
+        "Sec": "AAAG",
+        "Tert": "",
+        "Foren_5": 5,
+        "Foren_3": 48,
+        "Power_5": 66,
+        "Power_3": 43,
+        "Alleles": [
+            "9", "10", "11", "12", "12.2", "13", "13.2", "14", "14.2", "15", "15.2", "16",
+            "16.2", "17", "17.2", "18", "18.1", "18.2", "19", "20", "20.2", "21", "21.2", "22",
+            "23", "24", "25", "28"
+        ]
+    },
+    "D19S433": {
+        "BasesToSubtract": 26,
+        "NumRepeats": 3,
+        "Repeats": [
+            "CCTT",
+            "CCTA",
+            "TTCT"
+        ],
+        "NumBasesToSeparate": 4,
+        "ReverseCompNeeded": "Yes",
+        "LUS": "CCTT",
+        "Sec": "CTTT",
+        "Tert": "CCTG",
+        "Foren_5": 12,
+        "Foren_3": 54,
+        "Power_5": 59,
+        "Power_3": 37,
+        "Alleles": [
+            "4", "8", "9", "10", "11", "11.2", "12", "12.1", "12.2", "12.3", "13", "13.2",
+            "14", "14.2", "15", "15.2", "15.3", "16", "16.2", "17", "17.2", "18", "18.2"
+        ]
+    },
+    "D1S1656": {
+        "BasesToSubtract": 10,
+        "NumRepeats": 2,
+        "Repeats": [
+            "TCTA",
+            "CATA",
+            "TCTG",
+            "CACA",
+            "CCTA"
+        ],
+        "NumBasesToSeparate": 4,
+        "ReverseCompNeeded": "Yes",
+        "LUS": "TCTA",
+        "Sec": "CCTA",
+        "Tert": "TCTG",
+        "Foren_5": 51,
+        "Foren_3": 0,
+        "Power_5": 45,
+        "Power_3": 21,
+        "Alleles": [
+            "7", "8", "9", "10", "11", "12", "13", "14", "14.3", "15", "15.3", "16", "16.1",
+            "16.3", "17", "17.3", "18", "18.3", "19.3", "20"
+        ]
+    },
+    "D20S482": {
+        "BasesToSubtract": 0,
+        "NumRepeats": 1,
+        "Repeats": [
+            "AGAT"
+        ],
+        "NumBasesToSeparate": 4,
+        "ReverseCompNeeded": "No",
+        "LUS": "AGAT",
+        "Sec": "",
+        "Tert": "",
+        "Foren_5": 18,
+        "Foren_3": 24,
+        "Alleles": ["9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19"]
+    },
+    "D21S11": {
+        "BasesToSubtract": 11,
+        "NumRepeats": 2,
+        "Repeats": [
+            "TCTA",
+            "TCTG"
+        ],
+        "NumBasesToSeparate": 6,
+        "ReverseCompNeeded": "No",
+        "LUS": "TCTA",
+        "Sec": "TCTA",
+        "Tert": "TCTG",
+        "Foren_5": 34,
+        "Foren_3": 12,
+        "Power_5": 10,
+        "Power_3": 38,
+        "Alleles": [
+            "24.2", "25.2", "26", "26.2", "27", "28", "28.2", "28.3", "29", "29.2", "29.3",
+            "30", "30.2", "30.3", "31", "31.2", "32", "32.2", "33", "33.1", "33.2", "34",
+            "34.2", "35", "35.2", "36", "37", "38", "39"
+        ]
+    },
+    "D22S1045": {
+        "BasesToSubtract": 0,
+        "NumRepeats": 1,
+        "Repeats": [
+            "ATT"
+        ],
+        "NumBasesToSeparate": 3,
+        "ReverseCompNeeded": "No",
+        "LUS": "ATT",
+        "Sec": "",
+        "Tert": "",
+        "Foren_5": 106,
+        "Foren_3": 20,
+        "Power_5": 51,
+        "Power_3": 15,
+        "Alleles": ["8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19"]
+    },
+    "D2S1338": {
+        "BasesToSubtract": 0,
+        "NumRepeats": 2,
+        "Repeats": [
+            "GGAA",
+            "GGCA"
+        ],
+        "NumBasesToSeparate": 4,
+        "ReverseCompNeeded": "Yes",
+        "LUS": "GGAA",
+        "Sec": "GGAC",
+        "Tert": "GGCA",
+        "Foren_5": 3,
+        "Foren_3": 14,
+        "Power_5": 65,
+        "Power_3": 48,
+        "Alleles": [
+            "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27",
+            "28"
+        ]
+    },
+    "D2S441": {
+        "BasesToSubtract": 0,
+        "NumRepeats": 2,
+        "Repeats": [
+            "TCTA",
+            "TCTG"
+        ],
+        "NumBasesToSeparate": 4,
+        "ReverseCompNeeded": "No",
+        "LUS": "TCTA",
+        "Sec": "TGTA",
+        "Tert": "",
+        "Foren_5": 29,
+        "Foren_3": 23,
+        "Power_5": 81,
+        "Power_3": 5,
+        "Alleles": [
+            "9", "10", "10.3", "11", "11.3", "12", "12.3", "13", "14", "15", "16", "17", "18",
+            "19", "20", "21", "22", "23", "24", "25", "26", "27", "28"
+        ]
+    },
+    "D3S1358": {
+        "BasesToSubtract": 0,
+        "NumRepeats": 2,
+        "Repeats": [
+            "TCTA",
+            "TCTG"
+        ],
+        "NumBasesToSeparate": 4,
+        "ReverseCompNeeded": "No",
+        "LUS": "TCTA",
+        "Sec": "TCTG",
+        "Tert": "",
+        "Foren_5": 48,
+        "Foren_3": 18,
+        "Power_5": 100,
+        "Power_3": 22,
+        "Alleles": [
+            "10", "11", "12", "13", "14", "15", "15.2", "16", "16.2", "17", "18", "18.2",
+            "19", "20"
+        ]
+    },
+    "D4S2408": {
+        "BasesToSubtract": 0,
+        "NumRepeats": 1,
+        "Repeats": [
+            "ATCT"
+        ],
+        "NumBasesToSeparate": 4,
+        "ReverseCompNeeded": "No",
+        "LUS": "ATCT",
+        "Sec": "CTCT",
+        "Tert": "",
+        "Foren_5": 6,
+        "Foren_3": 8,
+        "Alleles": ["7", "8", "9", "10", "11", "12", "13"]
+    },
+    "D5S818": {
+        "BasesToSubtract": 4,
+        "NumRepeats": 1,
+        "Repeats": [
+            "ATCT"
+        ],
+        "NumBasesToSeparate": 4,
+        "ReverseCompNeeded": "Yes",
+        "LUS": "ATCT",
+        "Sec": "",
+        "Tert": "",
+        "Foren_5": 9,
+        "Foren_3": 7,
+        "Power_5": 35,
+        "Power_3": 81,
+        "Alleles": ["7", "8", "9", "10", "11", "11.1", "12", "13", "14", "15", "16"]
+    },
+    "D6S1043": {
+        "BasesToSubtract": 0,
+        "NumRepeats": 1,
+        "Repeats": [
+            "ATCT",
+            "ATGT"
+        ],
+        "NumBasesToSeparate": 4,
+        "ReverseCompNeeded": "Yes",
+        "LUS": "ATCT",
+        "Sec": "ATGT",
+        "Tert": "",
+        "Foren_5": 65,
+        "Foren_3": 20,
+        "Alleles": [
+            "8", "9", "10", "11", "12", "12.3", "13", "14", "15", "16", "17", "18", "18.1",
+            "18.2", "18.3", "19", "19.3", "20", "20.3", "21", "21.3", "22", "22.3", "23", "23.3", "24", "25", "26"
+        ]
+    },
+    "D7S820": {
+        "BasesToSubtract": 16,
+        "NumRepeats": 1,
+        "Repeats": [
+            "TATC",
+            "TGTC"
+        ],
+        "NumBasesToSeparate": 4,
+        "ReverseCompNeeded": "Yes",
+        "LUS": "TATC",
+        "Sec": "TGTC",
+        "Tert": "",
+        "Foren_5": 19,
+        "Foren_3": 20,
+        "Power_5": 61,
+        "Power_3": 69,
+        "Alleles": [
+            "6", "6.3", "7", "8", "8.1", "9", "9.1", "9.2", "10", "10.1", "10.3", "11", "11.1",
+            "12", "12.1", "13", "14"
+        ]
+    },
+    "D8S1179": {
+        "BasesToSubtract": 0,
+        "NumRepeats": 2,
+        "Repeats": [
+            "TCTA",
+            "TCTG"
+        ],
+        "NumBasesToSeparate": 4,
+        "ReverseCompNeeded": "No",
+        "LUS": "TCTA",
+        "Sec": "TCTG",
+        "Tert": "TGTA",
+        "Foren_5": 0,
+        "Foren_3": 5,
+        "Power_5": 19,
+        "Power_3": 108,
+        "Alleles": ["8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18"]
+    },
+    "D9S1122": {
+        "BasesToSubtract": 0,
+        "NumRepeats": 1,
+        "Repeats": [
+            "TAGA",
+            "TCGA"
+        ],
+        "NumBasesToSeparate": 4,
+        "ReverseCompNeeded": "No",
+        "LUS": "TAGA",
+        "Sec": "",
+        "Tert": "",
+        "Foren_5": 17,
+        "Foren_3": 7,
+        "Alleles": ["7", "9", "10", "11", "12", "13", "14", "15", "16", "17"]
+    },
+    "FGA": {
+        "BasesToSubtract": 0,
+        "NumRepeats": 3,
+        "Repeats": [
+            "AAAG",
+            "GAAA",
+            "GAAG",
+            "ACAG",
+            "AAAA"
+        ],
+        "NumBasesToSeparate": 4,
+        "ReverseCompNeeded": "Yes",
+        "LUS": "AAAG",
+        "Sec": "GAAA",
+        "Tert": "GAAG",
+        "Foren_5": 23,
+        "Foren_3": 0,
+        "Power_5": 80,
+        "Power_3": 0,
+        "Alleles": [
+            "17", "18", "19", "19.2", "20", "21", "22", "22.2", "23", "23.2", "24", "25",
+            "26", "26.2", "27" 
+        ]
+    },
+    "PENTA D": {
+        "BasesToSubtract": 5,
+        "NumRepeats": 1,
+        "Repeats": [
+            "AAAGA"
+        ],
+        "NumBasesToSeparate": 5,
+        "ReverseCompNeeded": "No",
+        "LUS": "AAAGA",
+        "Sec": "",
+        "Tert": "",
+        "Foren_5": 100,
+        "Foren_3": 9,
+        "Power_5": 67,
+        "Power_3": 64,
+        "Alleles": [
+            "1.2", "2.2", "3.2", "5", "6", "7", "8", "9", "10", "11", "12", "13", "13.4",
+            "14", "14.1", "15", "16", "17"
+        ]
+    },
+    "PENTA E": {
+        "BasesToSubtract": 0,
+        "NumRepeats": 1,
+        "Repeats": [
+            "TCTTT"
+        ],
+        "NumBasesToSeparate": 5,
+        "ReverseCompNeeded": "Yes",
+        "LUS": "TCTTT",
+        "Sec": "",
+        "Tert": "",
+        "Foren_5": 19,
+        "Foren_3": 75,
+        "Power_5": 106,
+        "Power_3": 5,
+        "Alleles": [
+            "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "15.4", "16", "16.4",
+            "17", "18", "19", "19.4", "20", "21", "22", "23", "24", "25"
+        ]
+    },
+    "TH01": {
+        "BasesToSubtract": 0,
+        "NumRepeats": 1,
+        "Repeats": [
+            "AATG"
+        ],
+        "NumBasesToSeparate": 4,
+        "ReverseCompNeeded": "No",
+        "LUS": "AATG",
+        "Sec": "",
+        "Tert": "",
+        "Foren_5": 32,
+        "Foren_3": 12,
+        "Power_5": 10,
+        "Power_3": 162,
+        "Alleles": ["5", "6", "7", "7.3", "8", "8.3", "9", "9.3", "10", "10.3", "11"]
+    },
+    "TPOX": {
+        "BasesToSubtract": 0,
+        "NumRepeats": 1,
+        "Repeats": [
+            "AATG"
+        ],
+        "NumBasesToSeparate": 4,
+        "ReverseCompNeeded": "No",
+        "LUS": "AATG",
+        "Sec": "",
+        "Tert": "",
+        "Foren_5": 2,
+        "Foren_3": 5,
+        "Power_5": 124,
+        "Power_3": 14,
+        "Alleles": ["5", "6", "7", "8", "9", "10", "11", "12", "13", "14"]
+    },
+    "VWA": {
+        "BasesToSubtract": 8,
+        "NumRepeats": 3,
+        "Repeats": [
+            "TAGA",
+            "CAGA",
+            "TGGA"
+        ],
+        "NumBasesToSeparate": 4,
+        "ReverseCompNeeded": "Yes",
+        "LUS": "TAGA",
+        "Sec": "CAGA",
+        "Tert": "TGGA",
+        "Foren_5": 19,
+        "Foren_3": 5,
+        "Power_5": 3,
+        "Power_3": 100,
+        "Alleles": ["11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21"]
+    },
+    "Y-GATA-H4": {
+        "BasesToSubtract": 88,
+        "NumRepeats": 4,
+        "Repeats": [
+            "TCTA"
+        ],
+        "ReverseCompNeeded": "Yes",
+        "LUS": "TCTA",
+        "Sec": "",
+        "Tert": "",
+        "Foren_5": 0,
+        "Foren_3": 0,
+        "Power_5": 0,
+        "Power_3": 113,
+        "Alleles": ["10", "11", "12", "13"]
+    },
+    "DYS643": {
+        "BasesToSubtract": 9,
+        "NumRepeats": 5,
+        "Repeats": [
+            "CTTTT"
+        ],
+        "ReverseCompNeeded": "No",
+        "LUS": "CTTTT",
+        "Sec": "",
+        "Tert": "",
+        "Foren_5": 50,
+        "Foren_3": 8,
+        "Power_5": 63,
+        "Power_3": 33,
+        "Alleles": ["9", "10", "11", "14"]
+
+    },
+    "DYS635": {
+        "BasesToSubtract": 0,
+        "NumRepeats": 4,
+        "Repeats": [
+            "TAGA"
+        ],
+        "ReverseCompNeeded": "Yes",
+        "LUS": "TAGA",
+        "Sec": "",
+        "Tert": "",
+        "Foren_5": 31,
+        "Foren_3": 24,
+        "Power_5": 42,
+        "Power_3": 4,
+        "Alleles": ["19", "20", "21", "22"]
+    },
+    "DYS612": {
+        "BasesToSubtract": 18,
+        "NumRepeats": 3,
+        "Repeats": [
+            "TCT"
+        ],
+        "ReverseCompNeeded": "No",
+        "LUS": "TCT",
+        "Sec": "TCT",
+        "Tert": "",
+        "Foren_5": 23,
+        "Foren_3": 26,
+        "Alleles": [
+            "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38",
+            "39", "40", "41"
+        ]
+    },
+    "DYS576": {
+        "BasesToSubtract": 0,
+        "NumRepeats": 4,
+        "Repeats": [
+            "AAAG"
+        ],
+        "ReverseCompNeeded": "No",
+        "LUS": "AAAG",
+        "Sec": "",
+        "Tert": "",
+        "Foren_5": 0,
+        "Foren_3": 39,
+        "Power_5": 1,
+        "Power_3": 62,
+        "Alleles": ["15", "16", "17", "18", "19"]
+    },
+    "DYS570":{
+        "BasesToSubtract": 0,
+        "NumRepeats": 4,
+        "Repeats": [
+            "TTTC"
+        ],
+        "ReverseCompNeeded": "No",
+        "LUS": "TTTC",
+        "Sec": "",
+        "Tert": "",
+        "Foren_5": 32,
+        "Foren_3": 14,
+        "Power_5": 51,
+        "Power_3": 5,
+        "Alleles": ["16", "17", "18", "19", "20"]
+    },
+    "DYS549": {
+        "BasesToSubtract": 0,
+        "NumRepeats": 4,
+        "Repeats": [
+            "GATA"
+        ],
+        "ReverseCompNeeded": "No",
+        "LUS": "GATA",
+        "Sec": "",
+        "Tert": "",
+        "Foren_5": 61,
+        "Foren_3": 49,
+        "Power_5": 110,
+        "Power_3": 9,
+        "Alleles": ["11", "12", "13", "14"]
+    },
+    "DYS533": {
+        "BasesToSubtract": 0,
+        "NumRepeats": 4,
+        "Repeats": [
+            "TATC"
+        ],
+        "ReverseCompNeeded": "No",
+        "LUS": "TATC",
+        "Sec": "",
+        "Tert": "",
+        "Foren_5": 64,
+        "Foren_3": 21,
+        "Power_5": 101,
+        "Power_3": 64,
+        "Alleles": [ "10", "11", "12", "13"]
+    },
+    "DYS522": {
+        "BasesToSubtract": 7,
+        "NumRepeats": 4,
+        "Repeats": [
+            "ATAG"
+        ],
+        "ReverseCompNeeded": "No",
+        "LUS": "ATAG",
+        "Sec": "",
+        "Tert": "",
+        "Foren_5": 136,
+        "Foren_3": 22,
+        "Alleles": ["8", "9", "10", "11", "12", "13", "14"]
+    },
+    "DYS505": {
+        "BasesToSubtract": 0,
+        "NumRepeats": 4,
+        "Repeats": [
+            "TCCT"
+        ],
+        "ReverseCompNeeded": "No",
+        "LUS": "TCCT",
+        "Sec": "",
+        "Tert": "",
+        "Foren_5": 61,
+        "Foren_3": 24,
+        "Alleles": ["8", "9", "10", "11", "12", "13", "14", "15", "16"]
+    },
+    "DYS481": {
+        "BasesToSubtract": 0,
+        "NumRepeats": 3,
+        "Repeats": [
+            "CTT"
+        ],
+        "ReverseCompNeeded": "No",
+        "LUS": "CTT",
+        "Sec": "",
+        "Tert": "",
+        "Foren_5": 24,
+        "Foren_3": 6,
+        "Power_5": 35,
+        "Power_3": 12,
+        "Alleles": ["20", "21", "22", "23", "24", "25", "26", "28"]
+    },
+    "DYS460": {
+        "BasesToSubtract": 0,
+        "NumRepeats": 4,
+        "Repeats": [
+            "CTAT"
+        ],
+        "ReverseCompNeeded": "Yes",
+        "LUS": "CTAT",
+        "Sec": "",
+        "Tert": "",
+        "Foren_5": 87,
+        "Foren_3": 51,
+        "Alleles": ["9", "10", "11"]
+    },
+    "DYS458": {
+        "BasesToSubtract": 76,
+        "NumRepeats": 4,
+        "Repeats": [
+            "GAAA"
+        ],
+        "ReverseCompNeeded": "No",
+        "LUS": "GAAA",
+        "Sec": "",
+        "Tert": "",
+        "Power_5": 0,
+        "Power_3": 0,
+        "Alleles": ["13", "14", "15", "16", "16.2", "17", "17.2", "18", "18.2", "19", "20"]
+    },
+    "DYS456": {
+        "BasesToSubtract": 50,
+        "NumRepeats": 4,
+        "Repeats": [
+            "AGAT"
+        ],
+        "ReverseCompNeeded": "No",
+        "LUS": "AGAT",
+        "Sec": "",
+        "Tert": "",
+        "Power_5": 0,
+        "Power_3": 0,
+        "Alleles": ["15", "16", "17", "18"]
+    },
+    "DYS448": {
+        "BasesToSubtract": 42,
+        "NumRepeats": 6,
+        "Repeats": [
+            "AGAGAT"
+        ],
+        "ReverseCompNeeded": "No",
+        "LUS": "AGAGAT",
+        "Sec": "AGAGAT",
+        "Tert": "",
+        "Foren_5": 19,
+        "Foren_3": 5,
+        "Power_5": 12,
+        "Power_3": 17,
+        "Alleles": ["19", "20", "21", "22"]
+    },
+    "DYS439": {
+        "BasesToSubtract": 56,
+        "NumRepeats": 4,
+        "Repeats": [
+            "GATA"
+        ],
+        "ReverseCompNeeded": "No",
+        "LUS": "GATA",
+        "Sec": "",
+        "Tert": "",
+        "Foren_5": 5,
+        "Foren_3": 23,
+        "Power_5": 0,
+        "Power_3": 25,
+        "Alleles": ["10", "11", "12", "13"]
+    },
+    "DYS438": {
+        "BasesToSubtract": 0,
+        "NumRepeats": 5,
+        "Repeats": [
+            "TTTTC"
+        ],
+        "ReverseCompNeeded": "No",
+        "LUS": "TTTTC",
+        "Sec": "",
+        "Tert": "",
+        "Foren_5": 13,
+        "Foren_3": 36,
+        "Power_5": 7,
+        "Power_3": 34,
+        "Alleles": ["8", "9", "10", "11"]
+    },
+    "DYS437": {
+        "BasesToSubtract": 0,
+        "NumRepeats": 4,
+        "Repeats": [
+            "TCTA"
+        ],
+        "ReverseCompNeeded": "No",
+        "LUS": "TCTA",
+        "Sec": "",
+        "Tert": "",
+        "Foren_5": 12,
+        "Foren_3": 105,
+        "Power_5": 10,
+        "Power_3": 76,
+        "Alleles": ["13", "14", "15", "16"]
+    },
+    "DYS393": {
+        "BasesToSubtract": 25,
+        "NumRepeats": 4,
+        "Repeats": [
+            "AGAT"
+        ],
+        "ReverseCompNeeded": "No",
+        "LUS": "AGAT",
+        "Sec": "",
+        "Tert": "",
+        "Power_5": 0,
+        "Power_3": 0,
+        "Alleles": ["11", "12", "13", "14", "15", "16"]
+    },
+    "DYS392": {
+        "BasesToSubtract": 0,
+        "NumRepeats": 3,
+        "Repeats": [
+            "ATA"
+        ],
+        "ReverseCompNeeded": "Yes",
+        "LUS": "ATA",
+        "Sec": "",
+        "Tert": "",
+        "Foren_5": 29,
+        "Foren_3": 104,
+        "Power_5": 3,
+        "Power_3": 75,
+        "Alleles": ["9", "10", "11", "12", "12.2", "13", "14", "15"]
+    },
+    "DYS391": {
+        "BasesToSubtract": 16,
+        "NumRepeats": 4,
+        "Repeats": [
+            "TCTA"
+        ],
+        "ReverseCompNeeded": "No",
+        "LUS": "TCTA",
+        "Sec": "",
+        "Tert": "",
+        "Foren_5": 3,
+        "Foren_3": 29,
+        "Power_5": 0,
+        "Power_3": 58,
+        "Alleles": ["8", "9", "9.3", "10", "11", "12", "13", "14"]
+    },
+    "DYS390": {
+        "BasesToSubtract": 8,
+        "NumRepeats": 4,
+        "Repeats": [
+            "TAGA",
+            "CAGA",
+            "GAGA"
+        ],
+        "ReverseCompNeeded": "Yes",
+        "LUS": "TAGA",
+        "Sec": "CAGA",
+        "Tert": "GAGA",
+        "Foren_5": 71,
+        "Foren_3": 0,
+        "Power_5": 23,
+        "Power_3": 54,
+        "Alleles": ["20", "21", "22", "23", "24", "25", "26", "27"]
+    },
+    "DYS389II": {
+        "BasesToSubtract": 48,
+        "NumRepeats": 4,
+        "Repeats": [
+            "TAGA",
+            "CAGG"
+        ],
+        "ReverseCompNeeded": "Yes",
+        "LUS": "TAGA",
+        "Sec": "TAGA",
+        "Tert": "CAGG",
+        "Foren_5": 0,
+        "Foren_3": 22,
+        "Power_5": 54,
+        "Power_3": 2,
+        "Alleles": ["26", "28", "29", "30", "31", "32"]
+    },
+    "DYS389I": {
+        "BasesToSubtract": 0,
+        "NumRepeats": 4,
+        "Repeats": [
+            "TAGA"
+        ],
+        "ReverseCompNeeded": "Yes",
+        "LUS": "TAGA",
+        "Sec": "",
+        "Tert": "",
+        "Foren_5": 0,
+        "Foren_3": 18,
+        "Power_5": 0,
+        "Power_3": 5,
+        "Alleles": ["10", "11", "12", "13", "14"]
+    },
+    "DYS385A-B": {
+        "BasesToSubtract": 131,
+        "NumRepeats": 4,
+        "Repeats": [
+            "TTTC"
+        ],
+        "ReverseCompNeeded": "Yes",
+        "LUS": "TTTC",
+        "Sec": "",
+        "Tert": "",
+        "Foren_5": 0,
+        "Foren_3": 23,
+        "Power_5": 0,
+        "Power_3": 23,
+        "Alleles": ["12", "13", "14", "15", "16", "17"]
+    },
+    "DYS19": {
+        "BasesToSubtract": 4,
+        "NumRepeats": 4,
+        "Repeats": [
+            "TCTA"
+        ],
+        "ReverseCompNeeded": "Yes",
+        "LUS": "TCTA",
+        "Sec": "",
+        "Tert": "",
+        "Foren_5": 113,
+        "Foren_3": 0,
+        "Power_5": 26,
+        "Power_3": 49,
+        "Alleles": ["12", "13", "13.2", "14", "14.2", "15", "16", "17", "18", "19"]
+    },
+    "DYF387S1": {
+        "BasesToSubtract": 0,
+        "NumRepeats": 4,
+        "Repeats": [
+            "AAAG",
+            "GAAG"
+        ],
+        "ReverseCompNeeded": "No",
+        "LUS": "AAAG",
+        "Sec": "GAAG",
+        "Tert": "",
+        "Foren_5": 14,
+        "Foren_3": 0,
+        "Alleles": ["35", "36", "37", "38", "39"]
+    },
+    "HPRTB": {
+        "BasesToSubtract": 0,
+        "NumRepeats": 4,
+        "Repeats": [
+            "ATCT"
+        ],
+        "ReverseCompNeeded": "Yes",
+        "LUS": "ATCT",
+        "Sec": "",
+        "Tert": "",
+        "Foren_5": 80,
+        "Foren_3": 28,
+        "Alleles": ["7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17"]
+    },
+    "DXS8378": {
+        "BasesToSubtract": 0,
+        "NumRepeats": 4,
+        "Repeats": [
+            "ATAG"
+        ],
+        "ReverseCompNeeded": "Yes",
+        "LUS": "ATAG",
+        "Sec": "",
+        "Tert": "",
+        "Foren_5": 80,
+        "Foren_3": 72,
+        "Alleles": ["7", "8", "9", "10", "11", "12", "13", "14"]
+    },
+    "DXS7423": {
+        "BasesToSubtract": 8,
+        "NumRepeats": 4,
+        "Repeats": [
+            "TGGA"
+        ],
+        "ReverseCompNeeded": "Yes",
+        "LUS": "TGGA",
+        "Sec": "",
+        "Tert": "",
+        "Foren_5": 60,
+        "Foren_3": 17,
+        "Alleles": ["8", "12", "13", "14", "15", "16", "17", "18"]
+    },
+    "DXS7132": {
+        "BasesToSubtract": 0,
+        "NumRepeats": 4,
+        "Repeats": [
+            "TAGA"
+        ],
+        "ReverseCompNeeded": "No",
+        "LUS": "TAGA",
+        "Sec": "",
+        "Tert": "",
+        "Foren_5": 24,
+        "Foren_3": 76,
+        "Alleles": ["11", "12", "13", "14", "14.3", "15", "15.3", "16", "16.3", "17", "17.3"]
+    },
+    "DXS10135": {
+        "BasesToSubtract": 56,
+        "NumRepeats": 4,
+        "Repeats": [
+            "AAGA",
+            "AAGG"
+        ],
+        "ReverseCompNeeded": "No",
+        "LUS": "AAGA",
+        "Sec": "AAGG",
+        "Tert": "",
+        "Foren_5": 0,
+        "Foren_3": 0,
+        "Alleles": [
+            "12", "15", "15.1", "16", "17", "17.1", "18", "18.1", "19", "19.1", "20", "20.1",
+            "21", "21.1", "22", "22.1", "23", "23.1", "24", "24.1", "25", "25.1", "26", "26.1",
+            "27", "27.1", "28", "28.1", "28.2", "29", "30", "31", "32", "33", "34", "34.1", "35",
+            "35.1", "35.2", "36", "36.1", "37", "37.1", "37.2", "38", "38.2", "39", "39.2"
+        ]
+    },
+    "DXS10074": {
+        "BasesToSubtract": 0,
+        "NumRepeats": 4,
+        "Repeats": [
+            "AAGA",
+            "AAAA"
+        ],
+        "ReverseCompNeeded": "No",
+        "LUS": "AAGA",
+        "Sec": "AAAA",
+        "Tert": "",
+        "Foren_5": 45,
+        "Foren_3": 64,
+        "Alleles": [
+            "6", "7", "8", "9", "10", "11", "12", "13", "14", "14.2", "14.3", "15", "15.3", "16",
+            "16.2", "16.3", "17", "17.2", "18", "19", "19.2", "20", "20.3", "21"
+        ]
+    },
+    "DXS10103": {
+        "BasesToSubtract": 4,
+        "NumRepeats": 4,
+        "Repeats": [
+            "TAGA"
+        ],
+        "ReverseCompNeeded": "No",
+        "LUS": "TAGA",
+        "Sec": "TAGA",
+        "Tert": "",
+        "Foren_5": 20,
+        "Foren_3": 2,
+        "Alleles": ["14", "15", "16", "17", "18", "19", "20", "21", "22"]
+    }
+}

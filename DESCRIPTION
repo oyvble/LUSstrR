@@ -1,0 +1,17 @@
+Package: LUSstrR
+Type: Package
+Title: A Tool to Convert Sequences into Bracket Format
+Version: 0.2.0
+Date: 2022-03-01
+Author: Oyvind Bleka
+Maintainer: Oyvind Bleka <oyvble@hotmail.com>
+Description: An R-implementation of lusSTR.
+URL: https://github.com/bioforensics/lusSTR
+License: GPL-3
+Imports: 
+    stringi,rjson
+Depends: 
+    R (>= 3.5.1)
+Suggests: 
+    testthat, readxl
+RoxygenNote: 6.1.1
