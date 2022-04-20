@@ -1,5 +1,12 @@
 
 =============================================
+LUSstrR v0.2.1 (Release date: 2022-04-20)
+=============================================
+- Fixed bug in conv_FGA:L90 (markerFunctions.R):
+ -- Use of strsplit instead of stri_sub caused missing '' in rare situations. 
+ -- Also had to modify count variable to adjust for this change (code is now more similar to original).
+
+=============================================
 LUSstrR v0.2.0 (Release date: 2022-03-01)
 =============================================
 - Init release on GitHub

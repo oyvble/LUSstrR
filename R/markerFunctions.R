@@ -69,6 +69,7 @@ conv_FGA = function(sequences, repeats, repeat_size=4) {
     second_string = stringi::stri_sub(seq,from = prev+1) #notice the added index
     
     locate2 = stringi::stri_locate_first(second_string,fixed='AAAA') #locate positions of motif
+    if( is.na(locate2[1]) ) locate2 = 1 #set default if not found
     checkString = stringi::stri_sub(second_string,from=locate2[1], to = locate2[1]+5) #obtain string to check
 
     #Performing special checks:
@@ -82,11 +83,11 @@ conv_FGA = function(sequences, repeats, repeat_size=4) {
       third_string = stringi::stri_sub(second_string, to=locate2[1]-1) #[:prev]
       fourth_string = stringi::stri_sub(second_string, from=locate2[1]) #[prev:]
     }
-    
+  #  print(first_string);print(second_string);print(third_string);print(fourth_string)
     final = collapse_repeats_by_length(first_string, repeat_size)
     final = append(final, sequence_to_bracketed_form(third_string, repeat_size, repeats))
     
-    parts = strsplit( fourth_string, 'GAAA')[[1]]
+    parts = stringi::stri_split(fourth_string, fixed='GAAA')[[1]] #dont use strsplit here (does not give "")
     tmp = NULL
     count = 0
     for(i in parts) {
@@ -110,12 +111,10 @@ conv_FGA = function(sequences, repeats, repeat_size=4) {
         }
       }
     }
-    if(parts[length(parts)] == '') { #if last part is empty
-     if(count>1) { #note slight modification here (-1)
-       tmp = append(tmp, paste0('[GAAA]',count)) #note slight modification here (-1)
-     } else {
+    if(parts[length(parts)] == '' && count>2) { 
+       tmp = append(tmp, paste0('[GAAA]',count-1)) #note slight modification here (-1)
+    } else if(parts[length(parts)] == '' && count<=2) {
        tmp = append(tmp, 'GAAA')  
-     }
     }
     #convertBracket2seq( paste0(tmp,collapse=" "))==fourth_string
     collapseseq[s] = paste0(c(final,tmp),collapse=" ")

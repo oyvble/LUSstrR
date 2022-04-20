@@ -20,30 +20,32 @@ for(sheet in sheets) {
 df = convert(df) #convert
 
 locs = unique(df$Locus)
-diffList =NULL
 for(locus in locs) {
-#locus=locs[8]
-  print(locus)
+#locus=locs[22]
   sub = subset(df,df$Locus==locus)
 #View(subset(sub,select=(-Sequence)))
   
   if(locus=="D21S11") sub$ConvertedUAS = gsub("TCCATA","TCCA TA", sub$ConvertedUAS)
   if(locus=="D7S820") sub$ConvertedUAS = gsub("GTTT T","GTTTT", sub$ConvertedUAS)
   
+  test_that(paste0("Bracket format at ",locus), {
+    expect_equal(sub$ConvertedUAS,sub$UAS_Output_Bracketed_Form)
+  })
+  test_that(paste0("LUS+ format at ",locus), {
+    expect_equal(sub$LUS_Plus,sub$lusUAS)
+  })
+}
+
+  #MANUAL CODE
+if(0) {
   indDiff = sub$ConvertedUAS!=sub$UAS_Output_Bracketed_Form
-  if(sum(indDiff)>0 ) {
-# View(subset(sub,indDiff,select=(-Sequence)))
-    #stop(paste0("SeqDiff=",which(indDiff),collapse="/" ))
-    diffList = rbind(diffList, subset(sub,indDiff))
-  }
-  indDiff = sub$lusUAS!=sub$LUS_Plus
-  if(sum(indDiff)>0) {
+  seqs = sub$Sequence[indDiff]
+  View(sub[indDiff,])
+  #indDiff = sub$lusUAS!=sub$LUS_Plus
+  #if(sum(indDiff)>0) {
     #View(subset(sub,indDiff,select=(-Sequence))) 
     #stop(paste0("LusDiff=",which(indDiff),collapse="/" ))
-    diffList = rbind(diffList, subset(sub,indDiff))
-  } 
-}
-if(length(diffList)==0) stop("No differences observed!")
+  #  diffList = rbind(diffList, subset(sub,indDiff))
+} 
+  #if(length(diffList)==0) stop("No differences observed!")
 #View(subset( diffList,select=(-Sequence)))
-
-
