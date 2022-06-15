@@ -123,6 +123,7 @@ conv_FGA = function(sequences, repeats, repeat_size=4) {
 }
 
 #conv_D7S820("AAACTATCAATCTGTCTATCTATCTATCTATCTATCTATCTATCTATCTATCT",c("TATC","TGTC"),9.1)=="AAAC TATC AATC TGTC [TATC]9 T"
+#conv_D7S820("AAAACTATCAATCTGTCTATCTATCTATCTATCTATCTATCTATCTATC",c("TATC","TGTC"),8.1)=="AAAC TATC AATC TGTC [TATC]9 T"
 conv_D7S820 = function(sequences, repeats, canonicals, repeat_size=4) {
   isOK = round(canonicals)==canonicals
   
@@ -143,7 +144,7 @@ conv_D7S820 = function(sequences, repeats, canonicals, repeat_size=4) {
         firstletter = stringi::stri_sub(sequence,to=1) #obtain first letter
         sequence2 = stringi::stri_sub(sequence,from=2) #skip first letter
         bf = sequence_to_bracketed_form(sequence2, repeat_size, repeats)
-        forward_strand_brack_form = paste0(firstletter,"", bf) #White space here??
+        forward_strand_brack_form = paste0(firstletter," ", bf) #White space here?? Yes this was updated for in 0.2.2
       }
     } else if( dec==2 ) {
       new_repeat_list = c('TATC', 'TGTC', 'AATC')
@@ -170,6 +171,7 @@ conv_D18S51 = function(sequences, repeats, canonicals, repeat_size=4) {
 
 
 #conv_TH01("AATGAATGAATGAATGAATGATGTTAATGAATGAATG","AATG")=="[AATG]5 ATG TT [AATG]3"
+#conv_TH01("AATGAATGAATGAATGAATGATGATGAATGAATGAATG","AATG")=="[AATG]5 ATGA TG [AATG]3"
 conv_TH01 = function(sequences, repeats, repeat_size=4) {
   
   #Obtain number of motifs per sequence:
@@ -300,8 +302,7 @@ conv_PentaD = function(sequences, repeats, repeat_size=5) {
   return(collapseseq)
 }
 
-#conv_D21S11("CTATCTATCTATCTATCTATCTGTCTGTCTGTCTGTCTGTCTGTCTATCTATCTATATCTATCTATCTATCATCTATCTATCCATATCTATCTATCTATCTATCTATCTATCTATCTATATCTA",
-# 4,c("TCTA","TCTG"))==
+#conv_D21S11("TCTATCTATCTATCTATCTATCTGTCTGTCTGTCTGTCTGTCTGTCTATCTATCTATATCTATCTATCTATCATCTATCTATCCATATCTATCTATCTATCTATCTATCTATCTATCTATCTATCTATCTATCGATATCTA", repeats=c("TCTA","TCTG"))
 conv_D21S11 = function(sequences, repeats, repeat_size=4) {
   brack_forms = sequence_to_bracketed_form( sequences, repeat_size, repeats)
   finals = brack_forms #default is same bracket format
@@ -321,23 +322,22 @@ conv_D21S11 = function(sequences, repeats, repeat_size=4) {
     second_string_final = gsub(' ', '',second_string)
     len = nchar(second_string_final) #obtain length of string
     
-    final = first_string #append to this (different situations)
     if( len %% 4 == 0) {
       second_string = collapse_repeats_by_length(second_string_final, 4)
-      final = c(final, second_string)
+      final = c(first_string, second_string)
     } else if( len == 6) {
       third_string = stringi::stri_sub(second_string_final, from=-6, to = -5) #[-6:-4]
       fourth_string = stringi::stri_sub(second_string_final, from=-4) #[-4:]
-      final = c(final, third_string, fourth_string)
+      final = c(first_string, third_string, fourth_string)
     } else if( len %% 4 == 2) {
       third_string = stringi::stri_sub(second_string_final,to=-7) #[:-6]
       fourth_string = stringi::stri_sub(second_string_final, from=-6, to = -5)  #[-6:-4]
       last_string = stringi::stri_sub(second_string_final, from=-4) #[-4:]
       third_string_final = collapse_repeats_by_length(third_string, 4)
-      final_string =  c(final, third_string_final, fourth_string, last_string)
+      final =  c(first_string, third_string_final, fourth_string, last_string)
     } else {
       third_string = collapse_repeats_by_length(second_string_final, 4)
-      final = c(final, third_string)
+      final = c(first_string, third_string)
     }  
     finals[s] = paste0(final,collapse=" ")
   }

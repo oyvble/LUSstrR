@@ -40,8 +40,9 @@ getLUSplus_D21S11 = function(motifReps,rules, lusSep="_") {
     rangeLast = setdiff(which(TCATs),rangeFirst)  #search range of LUS (last 2 blocks)
     rangeLast = tail(rangeLast,midSearch)
     #SEC = max(motifs[which(TCATs)[range]]) #First part is SEC
-    SEC = max(motifs[rangeFirst]) #First part is SEC
-    LUS = max(motifs[rangeLast]) #last part is LUS
+    SECind = rangeFirst[ motifs[rangeFirst]>=2 ] #require at least 2 repeats
+    SEC = motifs[SECind[1]] #First repeated part is SEC
+    LUS = max(motifs[rangeLast]) #Last part is LUS
     TER =  max(motifs[ names(motifs)%in%motifTypes[3]]) #Last type is other motif
     lusPlus[s] = paste0(LUS,lusSep,SEC,lusSep,TER) 
   }

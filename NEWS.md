@@ -1,4 +1,15 @@
 
+
+=============================================
+LUSstrR v0.2.2 (Release date: 2022-05-24)
+=============================================
+- Fixed bug in getLUSplus_D21S11:L43 (lusFunctions.R):
+ -- Extracted SEC should be first repeated TCTA motif in 'rangeFirst'
+- Fixed bug in conv_D21S11:L336 (markerFunctions.R):
+ -- final was wrongly specified as final_string (variable name error)
+- Changed convension in conv_D7S820:L147 (markerFunctions.R):
+ -- White space in beginning of motifs for x.1 situations.
+
 =============================================
 LUSstrR v0.2.1 (Release date: 2022-04-20)
 =============================================

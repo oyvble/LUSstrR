@@ -1,8 +1,8 @@
 Package: LUSstrR
 Type: Package
 Title: A Tool to Convert Sequences into Bracket Format
-Version: 0.2.1
-Date: 2022-04-20
+Version: 0.2.2
+Date: 2022-05-24
 Author: Oyvind Bleka
 Maintainer: Oyvind Bleka <oyvble@hotmail.com>
 Description: An R-implementation of lusSTR.

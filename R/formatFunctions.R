@@ -201,6 +201,7 @@ getMotifReps = function(bf, brksign=c("\\[","\\]")) {
 
 
 #Split a sequence into non-overlapping chunks of length n.
+#split_by_n("ATGATG",4)[[1]]
 split_by_n = function(sequences, n, rev=FALSE) {
   strsplit(sequences, paste0("(?<=.{",n,"})"), perl = TRUE)
 }

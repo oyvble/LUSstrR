@@ -22,6 +22,7 @@
 #' df = readRDS(paste0(pgkPath,"/examples/exampleDataframe.RDS"))
 #' df = convert(df)
 #' }
+#hasFlanks=FALSE;addFlanks=FALSE;panel="ForenSeq";format="UAS";lusSep="_"
 convert = function(df=NULL, hasFlanks=FALSE, addFlanks=FALSE, panel="ForenSeq", format="UAS", lusSep="_") {
   if(is.null(df)) return(NULL)
 
@@ -48,7 +49,7 @@ convert = function(df=NULL, hasFlanks=FALSE, addFlanks=FALSE, panel="ForenSeq", 
   }  
   
   for(locus in locs) {
-#   locus=locs[2]
+#   locus=locs[1]
     indUse = df$Locus==locus
   #View(df[indUse,])
     if(sum(indUse)==0) next #no observations
